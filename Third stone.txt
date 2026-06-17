@@ -208,7 +208,7 @@ Then go to Jenkins
 1.sudo su
 2.apt update
 3.apt install docker.io -y
-4.docker run -dt -p 8080:8080 jenkins/Jenkins
+4.docker run -dt -p 8080:8080 jenkins/jenkins
 5.docker ps
 6.docker exec -it <container_id> /bin/bash
 
